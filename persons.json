@@ -1,0 +1,36 @@
+{
+  "personTests": [
+    {
+      "firstName": "Hans",
+      "lastName": "Muster",
+      "street": "какая-то улица",
+      "postalCode": 1234,
+      "city": "какой-то город",
+      "birthday": 100
+    },
+    {
+      "firstName": "Vova",
+      "lastName": "Berinchik",
+      "street": "какая-то улица",
+      "postalCode": 1234,
+      "city": "какой-то город",
+      "birthday": 100
+    },
+    {
+      "firstName": "Vova",
+      "lastName": "Berinchik",
+      "street": "какая-то улица",
+      "postalCode": 1234,
+      "city": "какой-то город",
+      "birthday": 100
+    },
+    {
+      "firstName": "Ruth",
+      "lastName": "Mueller",
+      "street": "какая-то улица",
+      "postalCode": 1234,
+      "city": "какой-то город",
+      "birthday": 100
+    }
+  ]
+}
