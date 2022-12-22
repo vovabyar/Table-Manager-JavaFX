@@ -29,10 +29,9 @@ public class Person implements Comparable<Person> {
     public Person(String firstName, String lastName) {
         this.firstName = new SimpleStringProperty(firstName);
         this.lastName = new SimpleStringProperty(lastName);
-        // Какие-то фиктивные начальные данные для удобства тестирования.
-        this.street = new SimpleStringProperty("какая-то улица");
+        this.street = new SimpleStringProperty("Октябрьская");
         this.postalCode = new SimpleIntegerProperty(1234);
-        this.city = new SimpleStringProperty("какой-то город");
+        this.city = new SimpleStringProperty("Минск");
         this.birthday = new SimpleObjectProperty<LocalDate>(LocalDate.of(1999, 2, 21));
     }
 

@@ -1,10 +1,8 @@
 package com.example.demo4;
 
-import com.example.demo4.util.DateUtil;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class Find {
@@ -23,9 +21,6 @@ public class Find {
     }
     public void setDialogStage(Stage dialogStage) {
         this.dialogStage = dialogStage;
-
-        // Set the dialog icon.
-        //this.dialogStage.getIcons().add(new Image("file:resources/images/edit.png"));
     }
 
     @FXML

@@ -37,26 +37,9 @@ public class PersonListTest implements Cloneable{
 
             PersonListTest root = gson.fromJson(reader, PersonListTest.class);
             personTests = root.personTests;
-            reader.close();
 
         } catch (Exception e) {
             System.out.println("Parsing error " + e.toString());
         }
     }
-
-
-    public void addToList(PersonTest b) {
-        personTests.add(b);
-    }
-
-    public PersonTest GetByIndex(int index) {
-        return personTests.get(index);
-    }
-
-
-    public void print() {
-        var stream = personTests.stream();
-        stream.forEach(System.out::println);
-    }
-
 }

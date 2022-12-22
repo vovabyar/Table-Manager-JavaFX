@@ -1,35 +1,35 @@
 {
   "personTests": [
     {
-      "firstName": "Hans",
-      "lastName": "Muster",
-      "street": "какая-то улица",
+      "firstName": "Иван",
+      "lastName": "Волков",
+      "street": "Октябрьская",
       "postalCode": 1234,
-      "city": "какой-то город",
+      "city": "Минск",
       "birthday": 100
     },
     {
-      "firstName": "Vova",
-      "lastName": "Berinchik",
-      "street": "какая-то улица",
+      "firstName": "Вова",
+      "lastName": "Беринчик",
+      "street": "Октябрьская",
       "postalCode": 1234,
-      "city": "какой-то город",
+      "city": "Минск",
       "birthday": 100
     },
     {
-      "firstName": "Vova",
-      "lastName": "Berinchik",
-      "street": "какая-то улица",
+      "firstName": "Павел",
+      "lastName": "Кузнецов",
+      "street": "Октябрьская",
       "postalCode": 1234,
-      "city": "какой-то город",
+      "city": "Минск",
       "birthday": 100
     },
     {
-      "firstName": "Ruth",
-      "lastName": "Mueller",
-      "street": "какая-то улица",
+      "firstName": "Владимир",
+      "lastName": "Жданов",
+      "street": "Октябрьская",
       "postalCode": 1234,
-      "city": "какой-то город",
+      "city": "Минск",
       "birthday": 100
     }
   ]

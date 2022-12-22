@@ -10,7 +10,6 @@ import javafx.stage.FileChooser;
 
 public class RootLayoutController {
 
-    // Reference to the main application
     private MainApp mainApp;
 
 
@@ -29,13 +28,10 @@ public class RootLayoutController {
     @FXML
     private void handleOpen() {
         FileChooser fileChooser = new FileChooser();
-
-        // Set extension filter
         FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter(
                 "JSON files (*.json)", "*.json");
         fileChooser.getExtensionFilters().add(extFilter);
 
-        // Show save file dialog
         File file = fileChooser.showOpenDialog(mainApp.getPrimaryStage());
 
         if (file != null) {
@@ -56,17 +52,12 @@ public class RootLayoutController {
     @FXML
     private void handleSaveAs() {
         FileChooser fileChooser = new FileChooser();
-
-        // Set extension filter
         FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter(
                 "JSON files (*.json)", "*.json");
         fileChooser.getExtensionFilters().add(extFilter);
-
-        // Show save file dialog
         File file = fileChooser.showSaveDialog(mainApp.getPrimaryStage());
 
         if (file != null) {
-            // Make sure it has the correct extension
             if (!file.getPath().endsWith(".json")) {
                 file = new File(file.getPath() + ".json");
             }
@@ -79,7 +70,7 @@ public class RootLayoutController {
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setTitle("AddressApp");
         alert.setHeaderText("About");
-        alert.setContentText("Author: Vladimir Berinchik\nhttps://github.com/vovabyar");
+        alert.setContentText("test");
 
         alert.showAndWait();
     }

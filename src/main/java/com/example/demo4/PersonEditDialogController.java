@@ -8,12 +8,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-
-/**
- * Dialog to edit details of a person.
- *
- * @author Marco Jakob
- */
 public class PersonEditDialogController {
 
     @FXML
@@ -40,8 +34,6 @@ public class PersonEditDialogController {
 
     public void setDialogStage(Stage dialogStage) {
         this.dialogStage = dialogStage;
-
-        // Set the dialog icon.
         this.dialogStage.getIcons().add(new Image("file:resources/images/edit.png"));
     }
 
